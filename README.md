@@ -21,7 +21,7 @@
 To download or clone the repository:
 
 ```bash
-git clone https://github.com/username/mystore-landing-page
+git clone https://github.com/JoyWambo/mystore-landing-page.git
 ```
 
 To run locally:
