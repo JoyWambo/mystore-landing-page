@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyStore - Premium Products</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <h1 class="logo mb-0">MyStore</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero text-center text-white" id="home">
+      <div class="container">
+        <h1 class="display-4 fw-bold mb-3">Discover Premium Quality</h1>
+        <p class="lead">Elevate your lifestyle with our exclusive collection</p>
+        <a href="#products" class="btn btn-dark btn-lg">Explore Products</a>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Products</h2>
+          <p>Handpicked selections just for you</p>
+        </div>
+        <div class="product-grid">
+          <div class="card h-100">
+            <img
+              src="/assets/images/watch.jpeg"
+              class="card-img-top"
+              alt="Premium Watch"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Premium Watch</h5>
+              <p class="card-text">
+                Elegant timepiece crafted with sapphire crystal and water
+                resistance.
+              </p>
+              <div
+                class="mt-auto d-flex justify-content-between align-items-center"
+              >
+                <span class="price">$299</span>
+                <a href="#" class="btn btn-dark btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <img
+              src="/assets/images/bag.jpeg"
+              class="card-img-top"
+              alt="Luxury Handbag"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Luxury Handbag</h5>
+              <p class="card-text">
+                Handcrafted leather bag with modern design for everyday
+                elegance.
+              </p>
+              <div
+                class="mt-auto d-flex justify-content-between align-items-center"
+              >
+                <span class="price">$449</span>
+                <a href="#" class="btn btn-dark btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <img
+              src="/assets/images/shoe.jpeg"
+              class="card-img-top"
+              alt="Sport Sneakers"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Sport Sneakers</h5>
+              <p class="card-text">
+                Stylish athletic shoes with advanced cushioning for comfort.
+              </p>
+              <div
+                class="mt-auto d-flex justify-content-between align-items-center"
+              >
+                <span class="price">$179</span>
+                <a href="#" class="btn btn-dark btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <img
+              src="/assets/images/glasses.jpeg"
+              class="card-img-top"
+              alt="Designer Sunglasses"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Designer Sunglasses</h5>
+              <p class="card-text">
+                UV protection with lightweight frames and contemporary style.
+              </p>
+              <div
+                class="mt-auto d-flex justify-content-between align-items-center"
+              >
+                <span class="price">$199</span>
+                <a href="#" class="btn btn-dark btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img
+              src="/assets/images/store.jpeg"
+              alt="About MyStore"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <p class="lead">
+              At MyStore, we believe in quality, craftsmanship, and timeless
+              style. Our curated collection features premium products designed
+              to elevate your everyday life.
+            </p>
+            <p>
+              From luxury accessories to modern essentials, each item is
+              handpicked for its elegance, durability, and attention to detail.
+              Whether you're shopping for yourself or someone special, MyStore
+              is your destination for excellence.
+            </p>
+            <a href="#products" class="btn btn-dark mt-3">Browse Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="row text-start justify-content-between">
+          <div class="col-md-6 mb-4">
+            <h5>MyStore</h5>
+            <p>Your destination for premium quality products.</p>
+            <div class="mt-3">
+              <i class="bi bi-facebook mx-2"></i>
+              <i class="bi bi-instagram mx-2"></i>
+              <i class="bi bi-twitter mx-2"></i>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <h5>Contact Us</h5>
+            <p>Email: info@mystore.com</p>
+            <p>Phone: +2547123456789</p>
+            <p>Address: 123 Market Street</p>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center mb-0 opacity-75">
+          &copy; 2025 MyStore. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
